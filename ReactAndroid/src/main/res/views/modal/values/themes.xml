@@ -3,11 +3,9 @@
 <resources>
 
   <style name="Theme.FullScreenDialog">
+    <item name="android:windowBackground">@android:color/transparent</item>
     <item name="android:windowNoTitle">true</item>
     <item name="android:windowIsFloating">false</item>
-    <item name="android:windowBackground">@android:color/transparent</item>
-    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-    <item name="android:statusBarColor">@android:color/transparent</item>
   </style>
 
   <style name="Theme.FullScreenDialogAnimatedSlide" parent="Theme.FullScreenDialog">
@@ -27,7 +25,6 @@
     <item name="android:windowEnterAnimation">@anim/catalyst_fade_in</item>
     <item name="android:windowExitAnimation">@anim/catalyst_fade_out</item>
   </style>
-
 
 
 </resources>
